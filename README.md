@@ -139,3 +139,4 @@ MIT
 
 - [cnchar 官方文档](https://theajack.github.io/cnchar/)
 - [cnchar GitHub](https://github.com/theajack/cnchar)
+- [25亿字语料汉字字频表](https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm)
