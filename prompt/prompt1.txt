@@ -1,0 +1,6 @@
+我现在有一份Chinese character list from 2.5 billion words corpus ordered by frequency.xlsx文档，里面有14976行，每行为一个汉字，列包括第一列"serial number"序号、第二列“character”汉字本身、第三列“token”在语料当中该汉字出现的频数、第四列“frequency(per million)”在每百万字当中该汉字出现的次数，第五列“total coverage rate(%)”从上到下截止该汉字出现的累积百分比。我还找到了一个 github 仓库：https://github.com/theajack/cnchar ，该仓库是功能全面、多端支持的汉字拼音笔画js库。现在我想利用这个仓库来补充这份文档的内容。
+
+我需要你使用该仓库代码创建新的列：第六列“stroke count”为对应汉字的笔画数，第七列“pinyin”为对应汉字的包含音调的拼音（若为多音字，则指定输出polyphonic），第八列“radical”为对应汉字的部首，第九列“structure”为对应汉字的结构，第十列“Initial consonant”为对应汉字的声母，第十一列“final vowels”为对应汉字的韵母。
+
+
+不过，我没有计算机基础，我制作这份文档是需要制作心理学实验的刺激材料，所以你需要告诉我我应该怎么做？

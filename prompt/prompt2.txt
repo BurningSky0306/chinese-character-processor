@@ -1,0 +1,24 @@
+Chinese cahracter list filtered.xlsx 数据库在从链接 https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm 获取的 Chinese character list from 2.5 billion words corpus ordered by frequency.xlsx 文档（后称原始文档）的基础上，结合 CNChar 工具（链接：https://github.com/theajack/cnchar），制作了包含6008个汉字的拼音、笔画、偏旁部首等重要信息的表格。
+
+原始文档是基于25亿汉字的语料集统计的汉字字频数据，数据包括序号、汉字、出现次数、频率（百万基数）、累计频率（%）等。本文档在原始文档的基础上扩充了笔画、拼音、部首、结构、声母和韵母信息。
+
+纳入本文档的汉字满足如下条件：
+
+1. 非多音字
+2. 该字包含在 CNChar 索引字库当中，不在该字库当中的字一般是笔画数较多、不知道发音的少见生僻字。
+
+在本数据库中，每行为一个汉字，每列的含义如下：
+
+1. serial number：原始文档当中为汉字赋予的序号。由于原始文档是按照字频从大到小排列的，因此序号越小，就代表该字字频越大，字越常见。
+2. character：汉字。
+3. token：该字在原始语料集当中出现的频数。
+4. ferquency(per million)：该字在每百万字当中出现的频数。
+5. total coverage rate(%)：包括该字在内以及之前的所有字所出现的累积频率，单位为百分比。
+6. stroke count：笔画数
+7. pinyin：拼音
+8. radical：部首
+9. structure：字形结构
+10. Initial consonant：声母
+11. final vowels：韵母
+
+需注意，该文档存在总计 17 行部首和结构均为空值的汉字，这说明这些汉字的部首和结构数据不包含在该字库当中。但是检查这些汉字后，发现这些汉字均为较常见的字，例如死、剑、杀、刀、枪、毒、箭、爆、赌……因此后续可以人工补充这 17 个汉字的部首和结构信息，工作量小，可操作性高。
