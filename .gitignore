@@ -1,0 +1,22 @@
+# 依赖
+node_modules/
+
+# Excel 文件（太大，不建议上传到 GitHub）
+*.xlsx
+*.xls
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 文件
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.temp

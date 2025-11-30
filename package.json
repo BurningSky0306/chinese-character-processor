@@ -1,0 +1,19 @@
+{
+  "name": "chinese-character-processor",
+  "version": "1.0.0",
+  "description": "处理汉字属性的脚本",
+  "main": "process-characters.js",
+  "scripts": {
+    "start": "node process-characters.js",
+    "filter": "node filter-characters.js",
+    "advanced-filter": "node advanced-filter-characters.js",
+    "manual-filter": "node manual-filter-characters.js"
+  },
+  "dependencies": {
+    "cnchar": "^3.2.6",
+    "cnchar-poly": "^3.2.6",
+    "cnchar-radical": "^3.2.6",
+    "cnchar-order": "^3.2.6",
+    "xlsx": "^0.18.5"
+  }
+}
