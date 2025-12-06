@@ -1,0 +1,33 @@
+{
+  "sampleSize": 1082,
+  "means": {
+    "frequencyPerMillion": 340.0298993593763,
+    "wPerMillion": 119.41115526802221,
+    "difference": 220.61874409135402
+  },
+  "tTest": {
+    "tValue": 17.256951832802798,
+    "pValue": 0,
+    "degreesOfFreedom": 1081,
+    "cohensD": 0.46082664950821617,
+    "confidenceInterval95": {
+      "lower": 195.53381185827556,
+      "upper": 245.70367632443248
+    }
+  },
+  "permutationTest": {
+    "permutations": 10000,
+    "pValue": 0
+  },
+  "bootstrap": {
+    "samples": 10000,
+    "confidenceInterval95": {
+      "lower": 196.18919707141634,
+      "upper": 245.9158971974333
+    },
+    "confidenceInterval99": {
+      "lower": 187.91857153511916,
+      "upper": 252.69400365155732
+    }
+  }
+}

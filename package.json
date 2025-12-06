@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "cnchar": "^3.2.6",
+    "cnchar-order": "^3.2.6",
     "cnchar-poly": "^3.2.6",
     "cnchar-radical": "^3.2.6",
-    "cnchar-order": "^3.2.6",
+    "jstat": "^1.9.6",
     "xlsx": "^0.18.5"
   }
 }
