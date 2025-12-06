@@ -1,0 +1,11 @@
+在这个库里有两个文件：SUBTLEX_List.xlsx 和 CHARACTER_List.xlsx
+
+在CHARACTER_List.xlsx当中，第一列为 character，第一行为表头，第二行开始就是具体的字，总计 1084 行，其余行是关于该字的属性。
+
+在 SUBTLEX_List.xlsx 当中，第一列为 Word，第一行同样是表头，第二行开始依旧是具体的字，总计 5322 行，其余行依旧是关于该字的属性。
+
+现在，你需要从 SUBTLEX_List.xlsx 当中，找到存在于 CHARACTER_List.xlsx 当中的字，然后把 SUBTLEX_List.xlsx 当中属于该字的其余列（即从 B 列开始到 G列结束）复制到 CHARACTER_List.xlsx 的该字的最后列之后。由于 CHARACTER_List.xlsx 本身占据了 A 到 L 列，因此从 SUBTLEX_List.xlsx 复制过来的列应该从 M 列开始往后一直到 R 列。
+
+举个例子，假设CHARACTER_List.xlsx存在“天”这个字，那么就去 SUBTLEX_List.xlsx 当中寻找该字。若找到，则复制该字的从 B列开始到 G列，然后返回 CHARACTER_List.xlsx，把刚才复制内容粘贴到从 M 列到 R 列。假设如果在 CHARACTER_List.xlsx 存在 “麝”这个字，但是在SUBTLEX_List.xlsx不存在，那么就跳过该字，处理下一个字。
+
+直接在 CHARACTER_List.xlsx 文件上修改即可，无需创建新文件。

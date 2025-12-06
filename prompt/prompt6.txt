@@ -1,0 +1,1 @@
+现在我需要你继续对 CHARACTER_List.xlsx 和 SUBTLEX_List.xlsx 进行操作：在SUBTLEX_List.xlsx  当中新开 H 列 existence，从 SUBTLEX_List.xlsx A 列当中遍历 CHARACTER_List.xlsx B列的字，只要 SUBTLEX_List.xlsx A列当中的某个字在  CHARACTER_List.xlsx B列当中存在，就在SUBTLEX_List.xlsx 当中该字的 H 列赋值为1，否则赋值为0
